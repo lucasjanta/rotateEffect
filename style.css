@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    color: white;
+}
+
+body{
+    background-color: rgb(16, 16, 16);
+}
+
+.imagemgon{
+    position: absolute;
+    width: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    font-size: 10rem;
+    width: max-content;
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1rem;
+    color: #519b46;
+    
+}
+
+.nomefundo{
+    opacity: 0.2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nomemeio{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.animdireita{
+    animation: direita 2s linear 1 forwards;
+}
+
+@keyframes direita {
+    100%{
+        transform-origin: center;
+        transform: rotate(45deg);
+    }
+}
+
+.animesquerda{
+    
+}
