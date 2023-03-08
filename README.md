@@ -7,5 +7,4 @@ I found a nice design in [Dribble](https://dribbble.com/) and imagined a mouse e
 ## Execution
 
 I used the [GSAP](https://greensock.com/gsap/) library to animate the text and image based in the mouse position on the page.
-
-![image](https://user-images.githubusercontent.com/6317729/223743701-deabea9f-5730-4c2d-8d64-580d42269078.png)
+![Animação1](https://user-images.githubusercontent.com/6317729/223787592-69dc8790-ad94-4ff2-86cf-b45828419cd9.gif)
