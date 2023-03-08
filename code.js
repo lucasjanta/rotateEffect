@@ -24,7 +24,7 @@ document.addEventListener("mousemove", (movimento)=>{
         // gsap.to(".imagemgon", {rotation: -3, duration: 0.5});
     gsap.to(".nomefundo", {rotation: rotationVar, duration: 2});
     gsap.to(".nomemeio", {rotation: rotationVar, duration: 1});
-
+    gsap.to(".imagemgon", {rotation: rotationVar * -1, duration: 1})
 
 })
 
